@@ -1,0 +1,7 @@
+After playing around with GUI and CLI for a bit, I can see where both have their merits and strengths while also having their weaknesses as well. Both involve manipulating and using directories for certain things. However, both are fairly different in their execution.
+
+GUI is reasonably straightforward and seems the most accessible to me. So far, it only required the things that were already on my laptop to begin with. It was easier to access and navigate as I’m familiar with my computer and how to navigate folders. The con of GUI, however, is that navigating needs to be done. Finding files or items within directories can be time-consuming, especially if one doesn’t know where to navigate. Even I have problems finding files because I went through one directory, realized it was the wrong one, and had to return physically. 
+
+CLI, while scary at first, I think will become something I like once I get the hang of things. It does at first look like a graphic from The Matrix, therefore, it’s the one I had the most challenge navigating and playing around with. However, I think I’ll find myself liking it a lot more as it’ll be easier to navigate and do the things I want to do quickly. If there is a problem, I can look through the code and see where things went wrong instead of having to manually go through a ton of directories. 
+
+Overall I’m excited to see how both of these interfaces work as I take this course. Playing around with them is pretty fun all things considered. 
