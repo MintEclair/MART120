@@ -1,0 +1,44 @@
+span {
+	color:white;
+	background-color: lightblue;
+}
+
+.redColor {
+  color: red;
+  font-family: times new roman;
+  font-size: 20px;
+}
+
+span.redColor {
+  color: red;
+  font-family: times new roman;
+  font-size: 20px;
+}
+
+.greenColor {
+  color: green;
+  font-family: times new roman;
+  font-size: 20px;
+}
+
+span.greenColor {
+  color: green;
+  font-family: times new roman;
+  font-size: 20px;
+}
+
+#specificLink {
+  color:orange;
+  font-family:papyrus;
+  font-size:30px;
+}
+
+#specificlink2 {
+  color:lightblue;
+  font-family:Comic Sans MS;
+  font-size:15px;
+}
+
+.backgroundimage {
+	background-image: url("https://freerangestock.com/sample/114376/empty-art-gallery-in-museum.jpg");
+}

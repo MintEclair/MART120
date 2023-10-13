@@ -4,7 +4,7 @@
   <title> MINT PITASSY ART AND PEOTRY TIME</title>
 <style>
 body {
-	background-image: url("https://freerangestock.com/sample/114376/empty-art-gallery-in-museum.jpg");
+	backgrounf-image: url("https://freerangestock.com/sample/114376/empty-art-gallery-in-museum.jpg");
 }
 </style>
 </head>
