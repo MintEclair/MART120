@@ -3,8 +3,8 @@
 <head>
   <title> MINT PITASSY ART AND PEOTRY TIME</title>
 <style>
-body {
-	background-image: url("https://freerangestock.com/sample/114376/empty-art-gallery-in-museum.jpg");
+ body {
+	background-image: url("https://raw.githubusercontent.com/MintEclair/MART120/main/Homework%206/Webstie%20Images/empty-art-gallery-in-museum.jpg");
 }
 </style>
 </head>
