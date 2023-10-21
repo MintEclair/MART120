@@ -1,0 +1,87 @@
+<htmL>
+
+<head> 
+  <title> Contact Mint</title>
+   <link rel="stylesheet" type="text/css" href="mainstyle.css">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<script>
+function checkboxes()
+{
+	var firstName = document.getElementById("fName").value;
+	if(firstName == "")
+	{
+		window.alert("Hey asshole, do you not have a first name?");
+		document.getElementById("fName").style.backgroundColor = "red";
+		document.getElementById("fName").focus();
+
+	
+	}
+	var lastName = document.getElementById("lName").value;
+	if(lastName == "")
+	{
+		window.alert("Jesus Dude, you GOTTA have a last name!");
+		document.getElementById("lName").style.backgroundColor = "red";
+		document.getElementById("lName").focus();
+
+	}
+	var email = document.getElementById("emailaddress").value;
+	if(email == "")
+	{
+		window.alert("okay, do you wanna see me send you emails of cute kitties or not?");
+		document.getElementById("emailaddress").style.backgroundColor = "red";
+		document.getElementById("emailaddress").focus();
+
+
+	}
+	//consulted chatgpt to help with this last part here. Couldn't figure it out at first and it helped me so much. Scoured the internet for hours to find a solution.
+      	var yesRadio = document.getElementById("yes");
+      	var noRadio = document.getElementById("no");
+      	if (!yesRadio.checked && !noRadio.checked) {
+        window.alert("Ummm either accept or decline the terms and conditions?!?");
+        return;
+      	}
+
+	
+}
+	
+</script>
+
+</head>
+
+<body>
+  <h1>Contact Us</h1><br>
+
+<a href="Homework 8 Page 1.html" id="specificLink2">can i go home and take a nap?</a><br><br>
+
+<a href="Homework 8 Page 2.html" id="specificLink">I'D RATHER SEE YOUR ART THAN BE IN CONTACT WITH YOU</a><br><br>
+
+
+  <form action="nextPage.html" type="Post"> First Name: <input type="text" id="fName"><br>
+
+Last Name: <input type="text" id="lName"><br>
+
+Email Address: <input type="text" id="emailaddress"><br><br>
+
+Do You Accept The Terms and Conditions*?<br>
+
+ <input type="radio" id="yes" name="yesno" value="Yes">Yes<br>
+
+ <input type="radio" id="no" name="yesno" value="No">No<br>
+
+<button id="mySubmit" type="button" onclick='checkboxes();'>Submit</button><br> <br>
+
+
+</form>
+Or you can bypass the terms and conditions by hitting the slay button
+<button type="button" class="btn btn-danger">Slay</button></br></br>
+
+<span>*Terms and Conditions: I own your soul, and I will, at any random given point, may ask for a KitKat Bar.</span>
+
+</body>
+
+</html>

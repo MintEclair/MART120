@@ -1,0 +1,38 @@
+<htmL>
+
+<head> 
+  <title> Contact Mint</title>
+   <link rel="stylesheet" type="text/css" href="mainstyle.css">
+
+<script>
+	window.alert("HI");
+</script>
+</head>
+
+<body>
+  <h1>Contact Us</h1><br>
+
+<a href="Homework 8 Page 1.html" id="specificLink2">can i go home and take a nap?</a><br><br>
+
+<a href="Homework 8 Page 2.html" id="specificLink">I'D RATHER SEE YOUR ART THAN BE IN CONTACT WITH YOU</a><br><br>
+
+
+  <form action="nextPage.html" type="Post"> First Name: <input type="text" id="fName"><br>
+
+Last Name: <input type="text" id="lName"><br>
+
+Email Address: <input tupe="text" id="emailaddress"><br><br>
+
+Do You Accept The Terms and Conditions*?<br>
+
+ <input type="radio" name="yesno" value="Yes">Yes<br>
+
+ <input type="radio" name="yesno" value="No">No<br>
+
+<button id="mySubmit" type="button">Submit</button><br> <br>
+
+<span>*Terms and Conditions: I own your soul, and I will, at any random given point, may ask for a KitKat Bar.</span>
+
+</body>
+
+</html>
