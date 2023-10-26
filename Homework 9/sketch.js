@@ -1,0 +1,23 @@
+    function setup()
+    {
+        createCanvas(300,500);
+    }
+    function draw()
+    {
+        background(220);
+	textSize(16);
+	text('A Portrait of a Shattered Man', 10, 30);
+	circle(150,60,50);
+	triangle(75, 80, 150, 120, 225, 80)
+	circle(150,150,70);
+	rect(75,175,150,30);
+	circle(140,60,20);
+	circle(160,60,20);
+	line(75, 80, 75, 150);
+	line(225, 80, 225, 150);
+	line(200, 200, 200, 450);
+	line(90, 200, 90, 450);
+	text ('By Mint Pitassy', 175, 475);
+	point(150, 125);
+	point(175, 125);
+    }

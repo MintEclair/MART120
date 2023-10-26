@@ -10,9 +10,6 @@
     pink;
     }
   </style>
-
-	<script>
-	</script>
 </head>
 
 <body>
