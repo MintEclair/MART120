@@ -52,7 +52,7 @@ function draw() {
   fill(69, 20, 80);
   rect(rect1x, rect1y, 150, 30);
   if (rect1x > 800) {
-    rect1x = 250;
+    rect1x = 10;
   } else if (rect1x >= 600 && rect1x <= 700) {
     rect1x += 5;
   } else if (rect1x <= 800) {
@@ -76,6 +76,14 @@ function draw() {
     rect2x += 4;
   } else if (rect2x <= 700) {
     rect2x += 10;
+  }
+  
+  if (rect2y > 600) {
+    rect2y = 150;
+  } else if (rect2y > 100) {
+    rect2y +=8;
+  } else if (rect2y <=600) {
+    rect2y +=14;
   }
 
   fill(20, 30, 100);
