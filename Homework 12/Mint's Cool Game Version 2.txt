@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>
+            Mint's Cool Awesomme Game
+        </title>
+        <script src="p5.min.js"></script>
+        <script src="game_sketch.js"></script>
+    </head>
+    <body>
+
+    </body>
+</html>
