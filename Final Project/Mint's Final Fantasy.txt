@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title> Mint's Final Fantasy</title>
+	</head>
+	<body> 
+		<h1>Welcome to Mint's Final Fantasy</h1>
+	</body>
+</html>
