@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>GAY BABY JAIL</title>
+		<link rel="stylesheet" type="text/css" href="mainstyle.css">
+		<style> 
+			span
+			{
+			background-color:
+			lightpink;
+			}
+		</style>
+	</head>
+
+	<body>
+	
