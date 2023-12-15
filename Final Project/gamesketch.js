@@ -74,6 +74,10 @@ function draw() {
 
   walls();
 
+  safetyZoneText();
+
+  safetyZone();
+
 }
 
  function controlCircle(){
@@ -115,26 +119,105 @@ function introText(){
 
 function walls() {
   fill(100,100,100)
+
+  //first walls
   rect(0,100,400,25)
   rect(600,100,400,25)
+
+  //second walls
   rect(0,300,250,25)
   rect(350,300,700,25)
+
+  //third walls
   rect(0,700,700,25)
   rect(800,700,250,25)
+  
+  //hey you! Gonna destroy this one you see?
   rect(0,1000,500,25)
   rect(600,1000,400,25)
+
+  //fifth walls
   rect(0,1300,200,25)
   rect(250,1300,750,25)
+
+  //sixth walls
   rect(0,1750,700,25)
   rect(800,1750,200,25)
+
+  //seventh walls
   rect(0,2000,100,25)
   rect(150,2000,850,25)
+
+  //are we done yet walls
   rect(0,2200,450,25)
   rect(550,2200,450,25)
+
+  //just keep swimming walls
   rect(0,2500,300,25)
   rect(350,2500,650,25)
+
+  //donion ring walls
   rect(0,2800,450,25)
   rect(550,2800,450,25)
+
+if (
+    // First Walls
+    (x > 0 && x < 400 && y > 100 && y < 125) ||
+    (x > 600 && x < 1000 && y > 100 && y < 125) || 
+  
+    // Second walls
+    (x > 0 && x < 250 && y > 300 && y < 325) ||
+    (x > 350 && x < 1000 && y > 300 && y < 325) ||
+
+    // Third walls
+    (x > 0 && x < 700 && y > 700 && y < 725) ||
+    (x > 800 && x < 1000 && y > 700 && y < 725) ||
+  
+    //hey you! Gonna destroy this one you see?
+    (x > 0 && x < 500 && y > 1000 && y < 1025) ||
+    (x > 600 && x < 1000 && y > 1000 && y < 1025) ||
+
+    // Fifth walls
+    (x > 0 && x < 200 && y > 1300 && y < 1325) ||
+    (x > 250 && x < 1000 && y > 1300 && y < 1325) ||
+
+    // Sixth walls
+    (x > 0 && x < 700 && y > 1750 && y < 1775) ||
+    (x > 800 && x < 1000 && y > 1750 && y < 1775) ||
+
+    // Seventh walls
+    (x > 0 && x < 100 && y > 2000 && y < 2025) ||
+    (x > 150 && x < 1000 && y > 2000 && y < 2025) ||
+
+    // Are we done yet walls
+    (x > 0 && x < 450 && y > 2200 && y < 2225) ||
+    (x > 550 && x < 1000 && y > 2200 && y < 2225) ||
+
+    // Just keep swimming walls
+    (x > 0 && x < 300 && y > 2500 && y < 2525) ||
+    (x > 350 && x < 1000 && y > 2500 && y < 2525) ||
+
+    // Donion ring walls
+    (x > 0 && x < 450 && y > 2800 && y < 2825) ||
+    (x > 550 && x < 1000 && y > 2800 && y < 2825)
+  ) {
+    window.location.href = 'danradjumpscare.html';
+  }
+
+}
+
+function safetyZoneText() {
+  fill(225);
+  textSize(40);
+  text('SAFETY ZONE', 350, 2900);
+}
+
+function safetyZone() {
+  if (
+   (x > 0 && x < 1000 && y > 2825 && y < 3000)
+  ) {
+    window.location.href = 'danradjumpscare.html';
+  }
 }
 
 function mousePressed() {
