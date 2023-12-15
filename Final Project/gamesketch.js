@@ -216,7 +216,7 @@ function safetyZone() {
   if (
    (x > 0 && x < 1000 && y > 2825 && y < 3000)
   ) {
-    window.location.href = 'danradjumpscare.html';
+    window.location.href = 'wingamescreen.html';
   }
 }
 
