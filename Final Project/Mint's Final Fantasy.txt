@@ -8,7 +8,9 @@
 	<body> 
 		<h1 style="color:green;text-align:center;">Welcome to Mint's Final Fantasy</h1><br>
 
-		<p>Welcome to the harrowing and gnarly tale of Mint's Final Fantasy. Where Mint has to take back everything that was stolen from him. His life, his Food Zoo crush, and his ability to transform into Sailor Claire! Do you think you're up to the challenge? You better buckle your god damn seatbelt because this game is full of twists and turns, enemies to lovers, and even Daniel Radcliffe! PRESS BEGIN TO GET THIS PARTY STARTED!</P>
+		<p>Welcome to the harrowing and gnarly tale of Mint's Final Fantasy. Where Mint has to take back everything that was stolen from him. His life, his Food Zoo crush, and his ability to transform into Sailor Claire! Do you think you're up to the challenge? You better buckle your god damn seatbelt because this game is full of twists and turns, enemies to lovers, and even Daniel Radcliffe! PRESS BEGIN TO GET THIS PARTY STARTED!</P><br>
+
+<p><a href="thegame.html" id="specifclink3">BEGIN!!!</a><br>
 		
 	</body>
 </html>
